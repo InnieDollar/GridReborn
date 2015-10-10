@@ -1,5 +1,6 @@
 #Include SendCHP.ahk
 #NoTrayIcon
+SetBatchLines, -1
 Thread_Label = Misc
 SendCHP(True, "ReceiveData1")
 	;msgbox Hello World`n`nThread_Label:%Thread_Label%`n`nLineRead:%LineRead%

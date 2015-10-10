@@ -1,5 +1,6 @@
 #Include SendCHP.ahk
 #NoTrayIcon
+SetBatchLines, -1
 ;global PrAy_Txt
 Thread_Label=Dmg
 SendCHP(True, "ReceiveData1")

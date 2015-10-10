@@ -1,5 +1,6 @@
 #Include SendCHP.ahk
 #NoTrayIcon
+SetBatchLines, -1
 Thread_Label=Heals
 SendCHP(True, "ReceiveData1")
 UIDRR := " Recover "
